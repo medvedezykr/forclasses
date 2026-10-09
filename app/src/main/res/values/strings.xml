@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kval_Kovtanenko_Nikita</string>
+    <string name="textsplash">HELLO</string>
+
+    <string name="buttonprofile">Профиль</string>
+    <string name="mediabutton">Медиа</string>
+    <string name="randombutton">Рандомное Число</string>
+    <string name="exitbutton">Выход</string>
+
+    <string name="nameinp">Имя</string>
+    <string name="nicknameinp">Ник</string>
+    <string name="birthinp">Дата рождения</string>
+    <string name="emailinp">Email</string>
+
+    <string name="medvideo">Видео</string>
+    <string name="medaudio">Аудио</string>
+    <string name="medstart">Пуск</string>
+    <string name="medpause">Пауза</string>
+    <string name="medstop">Стоп</string>
+
+    <string name="countadd">+</string>
+    <string name="countred">-</string>
+    <string name="countget">Получить число</string>
+
+
+</resources>
