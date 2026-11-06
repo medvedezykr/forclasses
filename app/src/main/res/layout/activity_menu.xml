@@ -8,49 +8,42 @@
     android:background="@color/mainscreenolor"
     tools:context=".MENU">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/yellowbutt"
-        android:text="@string/buttonprofile"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/yellowbutt"
-        android:text="@string/mediabutton"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/yellowbutt"
-        android:text="@string/randombutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf=""
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="447dp" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/exitbutt"
-        android:text="@string/exitbutton"
+        android:layout_marginTop="175dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/profilebutt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/yellowbutt"
+            android:onClick="ToProfile"
+            android:text="@string/buttonprofile" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mediabutt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/yellowbutt"
+            android:onClick="ToMedia"
+            android:text="@string/mediabutton" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/randnumbutt"
+            android:onClick="ToRandom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yellowbutt"
+            android:text="@string/randombutton" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="208dp"
         android:background="@drawable/darkeryellowbutt"
-        android:text="Button"
+        android:text="@string/medstart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/videoView" />
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/darkeryellowbutt"
-        android:text="Button"
+        android:text="@string/medpause"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/darkeryellowbutt"
-        android:text="Button"
+        android:text="@string/medstop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />

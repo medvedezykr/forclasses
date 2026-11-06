@@ -1,10 +1,12 @@
 package com.example.kval_kovtanenko_nikita
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.content.Intent
 
 class MENU : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,4 +19,18 @@ class MENU : AppCompatActivity() {
             insets
         }
     }
+
+    fun ToProfile(view: View) {
+        val intent =  Intent(this,profile::class.java )
+        startActivity(intent)
+    }
+    fun ToMedia(view: View) {
+        val intent =  Intent(this,media::class.java )
+        startActivity(intent)
+    }
+    fun ToRandom(view: View) {
+        val intent =  Intent(this,randomset::class.java )
+        startActivity(intent)
+    }
+
 }

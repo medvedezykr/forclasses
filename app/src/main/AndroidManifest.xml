@@ -13,6 +13,7 @@
         android:theme="@style/Theme.Kval_Kovtanenko_Nikita">
         <activity
             android:name=".MainActivity"
+            android:noHistory="true"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
